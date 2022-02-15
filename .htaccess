@@ -1,0 +1,30 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    # RewriteBase /testAPI
+    # Note no need to set here RewriteBase.
+
+    RewriteCond %{HTTP:Authorization} ^(.*)
+    RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/(.*)/(.*)/(.*)/(.*)$ index.php?restparam1=$1&restparam2=$2&restparam3=$3&restparam4=$4&restparam5=$5 [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/(.*)/(.*)/(.*)$ index.php?restparam1=$1&restparam2=$2&restparam3=$3&restparam4=$4 [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/(.*)/(.*)$ index.php?restparam1=$1&restparam2=$2&restparam3=$3 [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/(.*)$ index.php?restparam1=$1&restparam2=$2 [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?restparam1=$1 [L,QSA]
+
+
+</IfModule>

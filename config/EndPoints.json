@@ -1,0 +1,6 @@
+{
+	"GET/test/{id}": {
+		"service": "RestApiDefaultService",
+		"authentication": false
+	}
+}
