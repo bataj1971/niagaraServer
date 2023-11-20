@@ -1,0 +1,12 @@
+{    
+    "tables":{
+      "addresses": {},
+      "users": {},
+      "userrights": {},
+      "usergroups": {},
+      "member_of_group": {},
+      "has_right": {},
+      "customers": {},
+      "customer_categories": {}
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "tablename": "aircraft_types",
+  "idfields": ["aircraft_type_id"],
+  "fields": {
+    "aircraft_type_id": {"type":"string", "len":20},
+    "manufacturer": { "required": true },
+
+    "type_number": { "required": true },
+    "number_of_seats": {
+      "type": "integer",
+      "required": true
+    },
+    "licence_level_needed": {
+      "type": "integer",
+      "required": true
+    },
+    "avg_flight_speed": {
+      "type": "integer",
+      "required": true
+    },
+    "created_by": {
+      "type": "createdby"
+    },
+    "modified_by": {
+      "type": "modifiedby"
+    },
+    "created_at": {
+      "type": "createdat"
+    },
+    "modified_at": {
+      "type": "modifiedat"
+    }
+  }
+}

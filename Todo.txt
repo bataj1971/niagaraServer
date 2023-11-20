@@ -1,0 +1,44 @@
+
+
+
+OK add namespaces
+
+ApiServer
+    OK routes: method:route/route/..
+     * parameter {id} -> :id
+
+Model
+ - add types
+    OK add fieldType classes
+    - add convert to srotageFormat  ( boolean true->1)
+    - add convert to backend data format  ( boolean 1->true)
+ 
+- add validation:
+    OK - add uniqueCheck db side
+    * add typecheck
+    * add required
+
+
+DBModel:Model
+    OK insert
+    OK update
+    OK delete
+    OK index
+
+JsonModel:Model
+    OK insert
+    OK update
+    OK delete
+    OK index
+
+
+
+assignement:
+    db
+    auto-insert
+    auto-update
+    auto-insert-update
+    insert-only
+    insert-update
+    
+        

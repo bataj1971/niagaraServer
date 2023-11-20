@@ -1,14 +1,17 @@
 <?php
 
-function exceptions_error_handler($severity, $message, $filename, $lineno)
-{
-	throw new ErrorException($message, 0, $severity, $filename, $lineno);
-}
+    require("config/sysConfig.php");
+    require("classes/Config/AutoLoad.php");    
+    
+    
+    ini_set("log_errors", 0);
+    ini_set("error_log", LOGDIR .date("Ymd")."_php_error.log");
 
-set_error_handler('exceptions_error_handler',E_ALL & ~E_NOTICE & ~E_STRICT  & ~E_WARNING);
 
-// the rest API part:
-require_once('classes/TestAPIServer.php');
 
-$TestAPIServer = new TestAPIServer();
-$TestAPIServer->run();
+    include "vendor/autoload.php";
+
+    use Application\Application;
+    $application = new Application();
+    $application->run();
+    

@@ -1,6 +1,436 @@
 {
-	"GET/test/{id}": {
-		"service": "RestApiDefaultService",
-		"authentication": false
-	}
+  "POST:api/login": {
+    "service": "RestApiAuthService",
+    "methodname": "login",
+    "authentication": false
+  },
+  "GET:api/test/{id}": {
+    "service": "RestApiDefaultService",
+    "authentication": false
+  },
+  "GET:api/users/{id}/groups": {
+    "service": "RestApiUserService",
+    "methodname": "getUserGroups",
+    "authentication": false
+  },
+  "GET:api/users/{id}/rights": {
+    "service": "RestApiUserService",
+    "methodname": "getUserRights",
+    "authentication": false
+  },
+  "GET:api/users/{id}": {
+    "service": "RestApiUserService",
+    "authentication": false
+  },
+  "GET:api/users": {
+    "service": "RestApiUserService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/users/{id}/addgroup/{groupid}": {
+    "service": "RestApiUserService",
+    "methodname": "addGroupToUser",
+    "authentication": false
+  },
+  "POST:api/users/{id}/removegroup/{groupid}": {
+    "service": "RestApiUserService",
+    "methodname": "removeGroupToUser",
+    "authentication": false
+  },
+  "POST:api/users/{id}/groups": {
+    "service": "RestApiUserService",
+    "methodname": "setGroupForUser",
+    "authentication": false
+  },
+  "POST:api/users": {
+    "service": "RestApiUserService",
+    "authentication": false
+  },
+  "PUT:api/users/{id}": {
+    "service": "RestApiUserService",
+    "authentication": false
+  },
+  "DELETE:api/users/{id}": {
+    "service": "RestApiUserService",
+    "authentication": false
+  },
+  "DELETE:api/users/{id}/groups/{groupid}": {
+    "service": "RestApiUserService",
+    "methodname": "remnoveGroupFromUser",
+    "authentication": false
+  },
+
+  "GET:api/articles/{id}": {
+    "service": "RestApiArticleService",
+    "authentication": false
+  },
+  "GET:api/articles": {
+    "service": "RestApiArticleService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/articles": {
+    "service": "RestApiArticleService",
+    "authentication": false
+  },
+  "PUT:api/articles/{id}": {
+    "service": "RestApiArticleService",
+    "authentication": false
+  },
+  "DELETE:api/articles/{id}": {
+    "service": "RestApiArticleService",
+    "authentication": false
+  },
+
+  "GET:api/articleCategories/{id}": {
+    "service": "RestApiArticleCategoryService",
+    "authentication": false
+  },
+  "GET:api/articleCategories": {
+    "service": "RestApiArticleCategoryService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/articleCategories": {
+    "service": "RestApiArticleCategoryService",
+    "authentication": false
+  },
+  "PUT:api/articleCategories/{id}": {
+    "service": "RestApiArticleCategoryService",
+    "authentication": false
+  },
+  "DELETE:api/articleCategories/{id}": {
+    "service": "RestApiArticleCategoryService",
+    "authentication": false
+  },
+
+  "GET:api/customers/{id}": {
+    "service": "RestApiCustomerService",
+    "authentication": false
+  },
+  "GET:api/customers": {
+    "service": "RestApiCustomerService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/customers": {
+    "service": "RestApiCustomerService",
+    "authentication": false
+  },
+  "PUT:api/customers/{id}": {
+    "service": "RestApiCustomerService",
+    "authentication": false
+  },
+  "DELETE:api/customers/{id}": {
+    "service": "RestApiCustomerService",
+    "authentication": false
+  },
+
+  "GET:api/customerCategories/{id}": {
+    "service": "RestApiCustomerCategoryService",
+    "authentication": false
+  },
+  "GET:api/customerCategories": {
+    "service": "RestApiCustomerCategoryService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/customerCategories": {
+    "service": "RestApiCustomerCategoryService",
+    "authentication": false
+  },
+  "PUT:api/customerCategories/{id}": {
+    "service": "RestApiCustomerCategoryService",
+    "authentication": false
+  },
+  "DELETE:api/customerCategories/{id}": {
+    "service": "RestApiCustomerCategoryService",
+    "authentication": false
+  },
+
+  "GET:api/receipts/{receipt_id}/lines/{id}": {
+    "service": "RestApiReceiptService",
+    "methodname": "getLine",
+    "authentication": false
+  },
+  "GET:api/receipts/{receipt_id}/lines": {
+    "service": "RestApiReceiptService",
+    "methodname": "getLines",
+    "authentication": false
+  },
+  "POST:api/receipts/{receipt_id}/lines": {
+    "service": "RestApiReceiptService",
+    "methodname": "addLine",
+    "authentication": false
+  },
+  "DELETE:api/receipts/{receipt_id}/lines/{id}": {
+    "service": "RestApiReceiptService",
+    "methodname": "deleteLine",
+    "authentication": false
+  },
+  "GET:api/receipts/{id}": {
+    "service": "RestApiReceiptService",
+    "authentication": false
+  },
+  "GET:api/receipts": {
+    "service": "RestApiReceiptService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/receipts": {
+    "service": "RestApiReceiptService",
+    "authentication": false
+  },
+  "DELETE:api/receipts/{id}": {
+    "service": "RestApiReceiptService",
+    "authentication": false
+  },
+
+  "GET:api/currencies/{id}": {
+    "service": "RestApiCurrencyService",
+    "authentication": false
+  },
+  "GET:api/currencies": {
+    "service": "RestApiCurrencyService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/currencies": {
+    "service": "RestApiCurrencyService",
+    "authentication": false
+  },
+  "DELETE:api/currencies/{id}": {
+    "service": "RestApiCurrencyService",
+    "authentication": false
+  },
+
+  "GET:api/countries/{id}": {
+    "service": "RestApiCountryService",
+    "authentication": false
+  },
+  "GET:api/countries": {
+    "service": "RestApiCountryService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/countries": {
+    "service": "RestApiCountryService",
+    "authentication": false
+  },
+  "PUT:api/countries/{id}": {
+    "service": "RestApiCountryService",
+    "authentication": false
+  },
+  "DELETE:api/countries/{id}": {
+    "service": "RestApiCountryService",
+    "authentication": false
+  },
+
+  "GET:api/rights/{id}": {
+    "service": "RestApiRightService",
+    "authentication": false
+  },
+  "GET:api/rights/{id}/users": {
+    "service": "RestApiRightService",
+    "methodname": "getUsers",
+    "authentication": false
+  },
+  "GET:api/rights": {
+    "service": "RestApiRightService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/rights": {
+    "service": "RestApiRightService",
+    "authentication": false
+  },
+  "PUT:api/rights/{id}": {
+    "service": "RestApiRightService",
+    "authentication": false
+  },
+  "DELETE:api/rights/{id}": {
+    "service": "RestApiRightService",
+    "authentication": false
+  },
+
+  "GET:api/groups/{id}": {
+    "service": "RestApiGroupService",
+    "authentication": false
+  },
+  "GET:api/groups": {
+    "service": "RestApiGroupService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "GET:api/groups/{id}/users": {
+    "service": "RestApiGroupService",
+    "methodname": "getUsers",
+    "authentication": false
+  },
+  "POST:api/groups": {
+    "service": "RestApiGroupService",
+    "authentication": false
+  },
+  "PUT:api/groups/{id}": {
+    "service": "RestApiGroupService",
+    "authentication": false
+  },
+  "DELETE:api/groups/{id}": {
+    "service": "RestApiGroupService",
+    "authentication": false
+  },
+
+  "GET:api/airports/{id}": {
+    "service": "RestApiAirportService",
+    "authentication": false
+  },
+  "GET:api/airports": {
+    "service": "RestApiAirportService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/airports": {
+    "service": "RestApiAirportService",
+    "authentication": false
+  },
+  "PUT:api/airports/{id}": {
+    "service": "RestApiAirportService",
+    "authentication": false
+  },
+  "DELETE:api/airports/{id}": {
+    "service": "RestApiAirportService",
+    "authentication": false
+  },
+
+  "GET:api/aircrafts/{id}": {
+    "service": "RestApiAirportService",
+    "authentication": false
+  },
+  "GET:api/aircrafts": {
+    "service": "RestApiAircraftService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/aircrafts": {
+    "service": "RestApiAircraftService",
+    "authentication": false
+  },
+  "PUT:api/aircrafts/{id}": {
+    "service": "RestApiAircraftService",
+    "authentication": false
+  },
+  "DELETE:api/aircrafts/{id}": {
+    "service": "RestApiAircraftService",
+    "authentication": false
+  },
+
+  "GET:api/pilots/{id}": {
+    "service": "RestApiPilotService",
+    "authentication": false
+  },
+  "GET:api/pilots": {
+    "service": "RestApiPilotService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/pilots": {
+    "service": "RestApiPilotService",
+    "authentication": false
+  },
+  "PUT:api/pilots/{id}": {
+    "service": "RestApiPilotService",
+    "authentication": false
+  },
+  "DELETE:api/pilots/{id}": {
+    "service": "RestApiPilotService",
+    "authentication": false
+  },
+
+  "GET:api/passengers/{id}": {
+    "service": "RestApiPassengerService",
+    "authentication": false
+  },
+  "GET:api/passengers": {
+    "service": "RestApiPassengerService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/passengers": {
+    "service": "RestApiPassengerService",
+    "authentication": false
+  },
+  "PUT:api/passengers/{id}": {
+    "service": "RestApiPassengerService",
+    "authentication": false
+  },
+  "DELETE:api/passengers/{id}": {
+    "service": "RestApiDestinationService",
+    "authentication": false
+  },
+
+  "GET:api/destinations/{id}": {
+    "service": "RestApiDestinationService",
+    "authentication": false
+  },
+  "GET:api/destinations": {
+    "service": "RestApiDestinationService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/destinations": {
+    "service": "RestApiDestinationService",
+    "authentication": false
+  },
+  "PUT:api/destinations/{id}": {
+    "service": "RestApiDestinationService",
+    "authentication": false
+  },
+  "DELETE:api/destinations/{id}": {
+    "service": "RestApiDestinationService",
+    "authentication": false
+  },
+
+  "GET:api/flights/{id}": {
+    "service": "RestApiFlightService",
+    "authentication": false
+  },
+  "GET:api/flights": {
+    "service": "RestApiFlightService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/flights": {
+    "service": "RestApiFlightService",
+    "authentication": false
+  },
+  "PUT:api/flights/{id}": {
+    "service": "RestApiFlightService",
+    "authentication": false
+  },
+  "DELETE:api/flights/{id}": {
+    "service": "RestApiFlightService",
+    "authentication": false
+  },
+
+  "GET:api/tickets/{flight_number}/{seat_number}": {
+    "service": "RestApiTicketService",
+    "authentication": false
+  },
+  "GET:api/tickets": {
+    "service": "RestApiTicketService",
+    "methodname": "index",
+    "authentication": false
+  },
+  "POST:api/tickets": {
+    "service": "RestApiTicketService",
+    "authentication": false
+  },
+  "PUT:api/tickets/{flight_number}/{seat_number}": {
+    "service": "RestApiTicketService",
+    "authentication": false
+  },
+  "DELETE:api/tickets/{flight_number}/{seat_number}": {
+    "service": "RestApiTicketService",
+    "authentication": false
+  }
 }

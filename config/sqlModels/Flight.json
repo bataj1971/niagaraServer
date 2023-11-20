@@ -1,0 +1,24 @@
+{
+  "tablename": "flights",
+  "idfields": ["flight_number"],
+  "fields": {    
+    "flight_number": {  "type":"string","len":"30"},
+    "destination_number": { "reference": "Destination" },
+    "flight_departure_time": { "type":"datetime" },
+    "aircraft_id": { "reference": "Aircraft" },
+    "pilot_id": { "reference": "Pilot" },    
+
+    "created_by": {
+      "type": "createdby"
+    },
+    "modified_by": {
+      "type": "modifiedby"
+    },
+    "created_at": {
+      "type": "createdat"
+    },
+    "modified_at": {
+      "type": "modifiedat"
+    }
+  }
+}

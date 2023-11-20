@@ -1,0 +1,45 @@
+ * {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ body{
+    background-color: black;
+    color:lightgreen;
+ }
+
+ input {
+    border: solid 1px green;
+    background-color: lightgreen;
+    color:#060;
+    border-radius: 5px;
+    padding: 5px;
+ }
+
+ fieldset {
+    border-radius: 5px;
+    border: solid 1px green;
+    margin:0px 10px 20px 10px;
+ }
+
+ div.inputContainer {
+       padding:5px; 
+ }
+
+ fieldset.sql pre {
+    font-size: 0.7em;
+ }
+
+ .reportEntry.error {
+    color:red;
+ }
+ .reportEntryType{
+    vertical-align: top;
+    width:100px;
+    display:inline-block;
+    width:100px;
+ }
+
+ .reportEntryMessage{
+    width:calc(100% - 200px);
+    display:inline-block;
+    margin:0;
+ }

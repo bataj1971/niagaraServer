@@ -1,0 +1,92 @@
+[
+  {
+    "airport_number": "BONN1",
+    "name": "Cologne Bonn Airport",
+    "country_id": "DE",
+    "intl": 1,
+    "lng": 50.74821854,
+    "lat": 7.07429981,
+    "location": "Bonn"
+  },
+  {
+    "airport_number": "BRLNB",
+    "name": " Brandenburg Airport",
+    "country_id": "DE",
+    "intl": 1,
+    "lng": 52.55355835,
+    "lat": 13.36602783,
+    "location": "Berlin "
+  },
+  {
+    "airport_number": "BUDLF",
+    "name": "Liszt Ferenc",
+    "country_id": "HU",
+    "intl": 1,
+    "lng": 47.4374192,
+    "lat": 19.2516561,
+    "location": "Budapest "
+  },
+  {
+    "airport_number": "DRTMA",
+    "name": "Airport Dortmund",
+    "country_id": "DE",
+    "intl": 0,
+    "lng": 51.45656586,
+    "lat": 7.47456551,
+    "location": "Dortmund "
+  },
+  {
+    "airport_number": "DUBLA",
+    "name": "Dublin Airport",
+    "country_id": "IR",
+    "intl": 1,
+    "lng": 53.4268984,
+    "lat": -6.2930531,
+    "location": "Dublin "
+  },
+  {
+    "airport_number": "FRFTI",
+    "name": " - International Airport",
+    "country_id": "DE",
+    "intl": 1,
+    "lng": 50.18317413,
+    "lat": 8.66032219,
+    "location": "Frankfurt "
+  },
+  {
+    "airport_number": "HMBHS",
+    "name": "Airport Helmut Schmidt",
+    "country_id": "DE",
+    "intl": 0,
+    "lng": 53.61772537,
+    "lat": 10.00754833,
+    "location": "Hamburg"
+  },
+  {
+    "airport_number": "LNDNH",
+    "name": "Heathrow",
+    "country_id": "GB",
+    "intl": 1,
+    "lng": 51.47002,
+    "lat": -0.454296,
+    "location": "London"
+  },
+  {
+    "airport_number": "NYJFK",
+    "name": "J.F.Kennedy",
+    "country_id": "US",
+    "intl": 1,
+    "lng": 40.8873812,
+    "lat": -74.7024499,
+    "location": "New York"
+  },
+  {
+    "airport_number": "TOKHA",
+    "name": "Haneda Airport",
+    "country_id": "JP",
+    "intl": 1,
+    "lng": 35.5493932,
+    "lat": 139.7077408,
+    "location": "Tokyo"
+  }
+]

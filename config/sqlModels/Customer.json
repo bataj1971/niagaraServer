@@ -1,0 +1,38 @@
+{
+    "tablename": "customers",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {
+            "type": "autointeger"
+        },
+        "name": {            
+            "required": true
+        },
+        "email": {
+            "type": "email"
+        },
+        "address_id": {
+          "type": "integer",
+          "reference": "Address"
+        },
+        "shipping_address_id": {
+          "type": "integer",
+          "reference": "Address"
+        },
+        "description": {},
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

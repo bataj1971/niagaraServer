@@ -1,0 +1,18 @@
+{
+    "tablename": "article_categories",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {
+            "type":"autointeger"
+        },
+        "name":{"required":true},
+        "description":{},
+        "parent_category_id":{"type":"integer","referene":"ArticleCategory"},
+        "created_by":{"type":"createdby"},
+        "modified_by":{"type":"modifiedby"},
+        "created_at":{"type":"createdat"},
+        "modified_at":{"type":"modifiedat"}
+    }
+}

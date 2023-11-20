@@ -1,0 +1,31 @@
+{
+    "tablename": "pilots",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {          
+            "type": "autointeger"            
+        },    
+        "name": {            
+            "required": true
+        },
+        "licence_level": {
+            "type":"integer",
+            "default":"1",
+            "required": true
+        },
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

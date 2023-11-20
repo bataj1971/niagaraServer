@@ -1,0 +1,17 @@
+[
+    {     
+      "name": "Test user 1 ",
+      "email": "testuser1@test.com",
+      "birthdate": "1973-02-01",
+      "loginname": "test1",
+      "description": "some notes about test user 1",
+      "password": "test1",
+      "address": {
+        "name": "testaddressname1",
+        "city": "testcity1",
+        "street": "streetname 12",
+        "zipcode": "123456",
+        "state": ""
+      }
+    }
+]

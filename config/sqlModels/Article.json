@@ -1,0 +1,50 @@
+{
+    "tablename": "articles",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {          
+            "type": "autointeger"            
+        },    
+        "name": {            
+            "required": true
+        },
+        "ean": {            
+            "required": true
+        },
+        "article_category_id":{
+           "type":"integer",
+           "referene":"ArticleCategory"
+        },
+        "price": {
+            "type": "decimal",
+            "required": true
+        },
+        "unit": {
+            "type": "string",
+            "required": true,
+            "default": "piece"
+        },
+        "description": {},
+        "suplier_customer_id": {
+            "reference":"Customer",
+            "type": "integer"
+        },
+        "manufacturer_customer_id": {
+            "type": "integer"
+        },
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

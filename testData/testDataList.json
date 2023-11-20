@@ -1,0 +1,28 @@
+{
+  "User": "users.json",
+  "Group": "groups.json",
+  "Right": "rights.json",
+  "MemberOfGroup": "memberofGroup.json",
+  "hasRight": "hasRight.json",
+
+  "Currency": "currencies.json",
+  "Country": "countries.json",
+
+  "CustomerCategory": "customerCategories.json",
+  "Customer": "customers.json",
+
+  "ArticleCategory": "articleCategories.json",
+  "Article": "articles.json",
+
+  "Receipt": "receipts.json",
+  "ReceiptLine": "receiptLines.json",
+
+  "AircraftType": "aircraftTypes.json",
+  "Aircraft": "aircrafts.json",
+  "Pilot": "pilots.json",
+  "Passenger": "passengers.json",
+  "Airport": "airports.json",
+  "Destination": "destinations.sql",
+  "Flight": "flights.json",
+  "Ticket": "tickets.json"
+}

@@ -1,0 +1,15 @@
+{
+  "tablename": "dictionary",
+  "idfields": ["model", "id"],
+  "fields": {
+    "model": {
+      "required": true
+    },
+    
+    "description": { "type": "text" },
+    "created_by": { "type": "createdby" },
+    "modified_by": { "type": "modifiedby" },
+    "created_at": { "type": "createdat" },
+    "modified_at": { "type": "modifiedat" }
+  }
+}

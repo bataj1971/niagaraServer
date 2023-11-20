@@ -1,0 +1,22 @@
+[
+  {
+    "id": "admin",
+    "name": "Admin right",
+    "description": "description of \nadmin right"
+  },
+  {
+    "id": "customer",
+    "name": "customer right",
+    "description": "description of \ntest right 1"
+  },
+  {
+    "id": "useradmin",
+    "name": "user administration rights",
+    "description": "description of \ntest right 1"
+  },
+  {
+    "id": "account",
+    "name": "account rights",
+    "description": "description of \ntest right 1"
+  }
+]

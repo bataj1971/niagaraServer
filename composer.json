@@ -1,0 +1,7 @@
+{
+    "require": {
+        "latte/latte": "^3.0",
+        "nette/utils":"^4.0",
+        "scssphp/scssphp": "^1.11.0"
+    }
+}

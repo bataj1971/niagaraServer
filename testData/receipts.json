@@ -1,0 +1,23 @@
+[
+  {
+    "receipttype": "ORD",
+    "customer_id": 1,
+    "currency_id": "HUF",
+    "duedate": "2023-12-26 10:11:22.123",
+    "description": "some words"
+  },
+  {
+    "receipttype": "ORD",
+    "customer_id": 2,
+    "currency_id": "HUF",
+    "duedate": "2023-10-26 10:11:22.123",
+    "description": "some words"
+  },
+  {
+    "receipttype": "ORD",
+    "customer_id": 1,
+    "currency_id": "HUF",
+    "duedate": "2023-10-21 10:11:22.123",
+    "description": "some words"
+  }
+]

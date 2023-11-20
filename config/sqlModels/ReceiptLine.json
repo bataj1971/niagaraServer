@@ -1,0 +1,46 @@
+{
+    "tablename": "receipt_lines",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {            
+            "type": "autointeger"
+        },
+        "receipt_id": {
+            "type": "integer",
+            "required": true,
+            "reference":"Receipt"
+        },    
+        "article_id": {
+            "type": "integer",
+            "required": true,
+            "reference": "Article"            
+        },
+        "qty": {
+            "type": "decimal",
+            "required": true
+        },
+        "price": {
+            "type": "decimal"
+        },
+        "rabat": {
+            "type": "decimal"
+        },
+        "vat": {
+            "type": "decimal"
+        },
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

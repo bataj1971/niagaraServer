@@ -1,0 +1,22 @@
+[
+  {
+    "id": "admin",
+    "name": "Admin group",
+    "description": "description of \nadmin group"
+  },
+  {
+    "id": "guest",
+    "name": "guest group",
+    "description": "description of \ntest group 1"
+  },
+  {
+    "id": "sales",
+    "name": "sales group",
+    "description": "description of \ntest group 1"
+  },
+  {
+    "id": "management",
+    "name": "management group",
+    "description": "description of \nmanagement group 1"
+  }
+]

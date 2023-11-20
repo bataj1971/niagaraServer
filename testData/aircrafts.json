@@ -1,0 +1,101 @@
+[
+	{
+		"id" : 1,
+		"registration_number" : "155-486",
+		"production_date" : "2010-01-01",
+		"status" : "active",
+		"aircraft_type_id" : "B-767",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 2,
+		"registration_number" : "165-456",
+		"production_date" : "1998-01-01",
+		"status" : "active",
+		"aircraft_type_id" : "B-747",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 3,
+		"registration_number" : "984-572",
+		"production_date" : "2015-01-01",
+		"status" : "active",
+		"aircraft_type_id" : "B-767",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 4,
+		"registration_number" : "165-481",
+		"production_date" : "2017-01-01",
+		"status" : "active",
+		"aircraft_type_id" : "A330",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 5,
+		"registration_number" : "321-568",
+		"production_date" : "1988-01-01",
+		"status" : "active",
+		"aircraft_type_id" : "B-747",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 6,
+		"registration_number" : "445-556",
+		"production_date" : "1973-09-30",
+		"status" : "active",
+		"aircraft_type_id" : "A-2",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 7,
+		"registration_number" : "954-565",
+		"production_date" : "1987-02-12",
+		"status" : "active",
+		"aircraft_type_id" : "C-152",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 8,
+		"registration_number" : "966-754",
+		"production_date" : "2002-01-01",
+		"status" : "active",
+		"aircraft_type_id" : "A-2",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	},
+	{
+		"id" : 9,
+		"registration_number" : "348-219",
+		"production_date" : "1994-10-03",
+		"status" : "active",
+		"aircraft_type_id" : "C-152",
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:55:01",
+		"modified_at" : "2023-07-20 07:55:01"
+	}
+]

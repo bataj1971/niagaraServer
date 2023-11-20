@@ -1,0 +1,31 @@
+{    
+  "modelList": {
+    "User": {},
+    "Address": {},
+    "Right": {},
+    "Group": {},
+    "MemberOfGroup": {},
+    "HasRight": {},
+    "Country": {},
+    "Currency": {},
+    "CustomerCategory": {},
+    "Customer": {},
+    "ArticleCategory": {},
+    "Article": {},
+    "Receipt": {},
+    "ReceiptLine": {},
+    "Airport": {},
+    "AircraftType": {},
+    "Aircraft": {},
+    "Destination": {},
+    "Pilot": {},
+    "Passenger": {},    
+    "Flight": {},
+    "Ticket": {}
+  },
+  "dbSettings":{
+    "defaultCharset":"latin1",
+    "engine":"InnoDB",
+    "autoIncrementStart":0
+  }
+}

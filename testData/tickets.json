@@ -1,0 +1,92 @@
+[
+	{
+		"flight_number" : "BONN1-BRLNB-2023-07-13",
+		"seat_number" : 1,
+		"passenger_id" : 1,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "BONN1-BRLNB-2023-07-13",
+		"seat_number" : 12,
+		"passenger_id" : 2,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "BONN1-BRLNB-2023-07-13",
+		"seat_number" : 13,
+		"passenger_id" : 3,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "BONN1-BRLNB-2023-07-13",
+		"seat_number" : 15,
+		"passenger_id" : 4,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "FRFTI-BUDLF-2023-07-13",
+		"seat_number" : 30,
+		"passenger_id" : 3,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "FRFTI-BUDLF-2023-07-13",
+		"seat_number" : 31,
+		"passenger_id" : 6,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "FRFTI-BUDLF-2023-07-13",
+		"seat_number" : 40,
+		"passenger_id" : 7,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "NYJFK-BUDLF-2023-07-14",
+		"seat_number" : 2,
+		"passenger_id" : 1,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "NYJFK-BUDLF-2023-07-14",
+		"seat_number" : 3,
+		"passenger_id" : 3,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	},
+	{
+		"flight_number" : "NYJFK-BUDLF-2023-07-14",
+		"seat_number" : 10,
+		"passenger_id" : 5,
+		"created_by" : 1,
+		"modified_by" : 1,
+		"created_at" : "2023-07-21 20:12:18",
+		"modified_at" : "2023-07-21 20:24:10"
+	}
+]

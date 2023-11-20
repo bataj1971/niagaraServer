@@ -1,0 +1,62 @@
+[
+	{
+		"aircraft_type_id" : "A-2",
+		"manufacturer" : "Antonov",
+		"type_number" : "2",
+		"number_of_seats" : 10,
+		"licence_level_needed" : 2,
+		"avg_flight_speed" : 320,
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:54:59",
+		"modified_at" : "2023-07-20 07:54:59"
+	},
+	{
+		"aircraft_type_id" : "A330",
+		"manufacturer" : "Airbus",
+		"type_number" : "330",
+		"number_of_seats" : 50,
+		"licence_level_needed" : 3,
+		"avg_flight_speed" : 650,
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:54:59",
+		"modified_at" : "2023-07-20 07:54:59"
+	},
+	{
+		"aircraft_type_id" : "B-747",
+		"manufacturer" : "Boeing",
+		"type_number" : "747",
+		"number_of_seats" : 25,
+		"licence_level_needed" : 3,
+		"avg_flight_speed" : 530,
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:54:59",
+		"modified_at" : "2023-07-20 07:54:59"
+	},
+	{
+		"aircraft_type_id" : "B-767",
+		"manufacturer" : "Boeing",
+		"type_number" : "767",
+		"number_of_seats" : 35,
+		"licence_level_needed" : 3,
+		"avg_flight_speed" : 600,
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:54:59",
+		"modified_at" : "2023-07-20 07:54:59"
+	},
+	{
+		"aircraft_type_id" : "C-152",
+		"manufacturer" : "Cesna",
+		"type_number" : "152",
+		"number_of_seats" : 3,
+		"licence_level_needed" : 1,
+		"avg_flight_speed" : 270,
+		"created_by" : null,
+		"modified_by" : null,
+		"created_at" : "2023-07-20 07:54:59",
+		"modified_at" : "2023-07-20 07:54:59"
+	}
+]

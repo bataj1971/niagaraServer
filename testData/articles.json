@@ -1,0 +1,32 @@
+[
+{
+    "name":"Prince of Persia",
+    "ean":"9780123456789",
+    "unit":"cpy",
+    "article_category_id":1,
+    "price":123.00,
+    "description":"some descriptions",
+    "suplier_customer_id":1,
+    "manufacturer_customer_id":1
+},
+{
+    "name":"Pride and Prejudices",
+    "ean":"97801234560123",
+    "unit":"cpy",
+    "article_category_id":2,
+    "price":1203.00,
+    "description":"some descriptions",
+    "suplier_customer_id":2,
+    "manufacturer_customer_id":1
+},
+{
+    "name":"Romeo and Juliet",
+    "ean":"97801234560124",
+    "unit":"cpy",
+    "article_category_id":1,
+    "price":1203.00,
+    "description":"some descriptions",
+    "suplier_customer_id":1,
+    "manufacturer_customer_id":1
+}
+]

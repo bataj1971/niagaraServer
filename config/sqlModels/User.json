@@ -1,0 +1,46 @@
+{
+  "tablename": "users",
+  "idfields": ["id"],
+  "fields": {
+    "id": {
+      "type": "autointeger"
+    },
+    "loginname": {
+      "type": "string",
+      "len":100,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password",
+      "required": false
+    },
+    "description": {
+      "type": "string"
+    },
+    "address_id": {
+      "type": "integer"
+    },
+    "created_by": {
+      "type": "createdby"
+    },
+    "modified_by": {
+      "type": "modifiedby"
+    },
+    "created_at": {
+      "type": "createdat"
+    },
+    "modified_at": {
+      "type": "modifiedat"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"name" : "Orville Wright",
+		"licence_level" : 1
+	},
+	{
+		"name" : "Charles Lindbergh",
+		"licence_level" : 1
+	},
+	{
+		"name" : "Amelia Earhart",
+		"licence_level" : 2
+	},
+	{
+		"name" : "Paul Tibbets",
+		"licence_level" : 3
+	},
+	{
+		"name" : "James H. Doolittle",
+		"licence_level" : 3
+	},
+	{
+		"name" : "Harrison Ford",
+		"licence_level" : 2
+	},
+	{
+		"name" : "Louis Bleriot",
+		"licence_level" : 3
+	},
+	{
+		"name" : "Noel Wien",
+		"licence_level" : 3
+	},
+	{
+		"name" : "Manfred von Richthofen",
+		"licence_level" : 2
+	}
+]

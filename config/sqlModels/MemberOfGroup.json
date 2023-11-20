@@ -1,0 +1,33 @@
+{
+    "tablename": "member_of_group",
+    "idfields": [
+        "group_id",
+        "user_id"
+    ],
+    "fields": {
+        "group_id": {
+          "type": "string",
+          "required": true,
+          "reference": "Group"
+
+        },
+        "user_id": {
+          "type": "string",
+          "required": true,
+          "reference": "User"
+
+        },
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

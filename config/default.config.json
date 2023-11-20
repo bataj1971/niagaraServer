@@ -1,0 +1,15 @@
+{
+    "db":{
+        "rdbms":"mysql",
+        "host":"localhost",
+        "port":"3306",
+        "name":"testapi",
+        "user":"root",
+        "password":""
+    },
+    "loglevels":{
+        "default":2
+    },
+    "tokensecret":"tokensecret",
+    "baseurl":"/niagaraServer/"
+}

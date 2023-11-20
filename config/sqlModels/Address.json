@@ -1,0 +1,37 @@
+{
+    "tablename": "addresses",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {
+            "type": "autointeger"
+        },
+        "parent": {
+            "required": true
+        },
+        "name": {            
+            "required": true            
+        },
+        "country": {
+            "len":3
+        },
+        "city": {},
+        "street": {},
+        "zipcode": {"len":20},
+        "state": {"len":20}, 
+        "description": {},
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

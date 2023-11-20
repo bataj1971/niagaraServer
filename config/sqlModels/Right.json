@@ -1,0 +1,30 @@
+{
+    "tablename": "user_rights",
+    "idfields": [
+        "id"
+    ],
+    "fields": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "description":{
+            "type": "string"
+        },        
+        "created_by": {
+            "type": "createdby"
+        },
+        "modified_by": {
+            "type": "modifiedby"
+        },
+        "created_at": {
+            "type": "createdat"
+        },
+        "modified_at": {
+            "type": "modifiedat"
+        }
+    }
+}

@@ -1,2 +1,5 @@
-nbproject/**/*
-logs/**/*
+/nbproject/**/*
+/logs/**/*
+/log/**/*
+/.vscode/**/*
+/vendor

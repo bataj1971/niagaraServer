@@ -1,0 +1,22 @@
+{
+  "tablename": "tickets",
+  "idfields": ["flight_number","seat_number"],
+  "fields": {  
+    "flight_number": { "reference":"Flight" },
+    "seat_number": { "type": "integer" },
+    "passenger_id": { "reference": "Passenger" , "required":true},    
+
+    "created_by": {
+      "type": "createdby"
+    },
+    "modified_by": {
+      "type": "modifiedby"
+    },
+    "created_at": {
+      "type": "createdat"
+    },
+    "modified_at": {
+      "type": "modifiedat"
+    }
+  }
+}

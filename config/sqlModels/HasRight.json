@@ -1,0 +1,36 @@
+{
+    "tablename": "has_right",
+    "idfields": [
+        "right_id",
+        "group_id"
+    ],
+    "fields": {
+      "right_id": {
+        "type": "string",
+        "required": true,
+        "reference": "Right"
+      },
+      "group_id": {
+        "type": "string",
+        "required": true,
+        "reference": "Group"
+      },
+      "level": {
+        "type": "integer",
+        "required": true,
+        "default":0
+      },
+      "created_by": {
+        "type": "createdby"
+      },
+      "modified_by": {
+        "type": "modifiedby"
+      },
+      "created_at": {
+        "type": "createdat"
+      },
+      "modified_at": {
+        "type": "modifiedat"
+      }
+    }
+}

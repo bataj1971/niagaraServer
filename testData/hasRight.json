@@ -1,0 +1,13 @@
+[
+  {
+    "group_id": "admin",
+    "right_id": "admin",
+    "level":3
+
+  },
+  {
+    "group_id": "admin",
+    "right_id": "useradmin",
+    "level": 3
+  }
+]

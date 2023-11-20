@@ -1,0 +1,50 @@
+[
+{
+    "receipt_id":1,
+    "article_id":1,
+    "qty":2,
+    "price":240,
+    "vat":10,
+    "rabat":20
+},
+{
+    "receipt_id":1,
+    "article_id":2,
+    "qty":2,
+    "price":100,
+    "vat":10,
+    "rabat":10
+},
+{
+    "receipt_id":2,
+    "article_id":3,
+    "qty":10,
+    "price":40,
+    "vat":10,
+    "rabat":0
+},
+{
+    "receipt_id":3,
+    "article_id":1,
+    "qty":10,
+    "price":40,
+    "vat":10,
+    "rabat":0
+},
+{
+    "receipt_id":3,
+    "article_id":2,
+    "qty":10,
+    "price":40,
+    "vat":10,
+    "rabat":0
+},
+{
+    "receipt_id":1,
+    "article_id":2,
+    "qty":1,
+    "price":240,
+    "vat":20,
+    "rabat":15
+}
+]

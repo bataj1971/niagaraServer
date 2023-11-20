@@ -1,0 +1,24 @@
+{
+  "tablename": "aircrafts",
+  "idfields": ["id"],
+  "fields": {
+    "id": { "type": "autointeger" },
+    "registration_number": { "required": true },
+    "production_date": { "type": "date", "required": true },
+    "status": { "required": true ,"default":"active"},
+    "aircraft_type_id": { "reference": "AircraftType" },
+
+    "created_by": {
+      "type": "createdby"
+    },
+    "modified_by": {
+      "type": "modifiedby"
+    },
+    "created_at": {
+      "type": "createdat"
+    },
+    "modified_at": {
+      "type": "modifiedat"
+    }
+  }
+}

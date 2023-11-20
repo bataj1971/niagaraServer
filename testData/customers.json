@@ -1,0 +1,68 @@
+[
+    {
+      "name": "Customer - 1",
+      "email": "customer1@test.com",
+      "description": "some description\n some other line",
+      "customer_category_id": 1,
+      "address": {
+        "name": "customer 1 address name",
+        "city": "customer 1 address city",
+        "street": "customer 1 address street",
+        "zipcode": "customer 1 address zip",
+        "state": "customer 1 address state",
+        "country":"HU"
+      },
+      "shipping_address": {
+        "name": "customer 1 sh.address name",
+        "city": "customer 1 sh.address city",
+        "street": "customer 1 sh.address street",
+        "zipcode": "customer 1 sh.address zip",
+        "state": "customer 1 sh.address state",
+        "country": "HU"
+      }
+    },
+    {
+      "name": "Customer - 2",
+      "email": "customer2@test.com",
+      "description": "some description\n some other line",
+      "customer_category_id": 2,
+      "address": {
+        "name": "customer 2 address name",
+        "city": "customer 2 address city",
+        "street": "customer 2 address street",
+        "zipcode": "customer 2 address zip",
+        "state": "customer 2 address state",
+        "country": "HU"
+      },
+      "shipping_address": {
+        "name": "customer 2 sh.address name",
+        "city": "customer 2 sh.address city",
+        "street": "customer 2 sh.address street",
+        "zipcode": "customer 2 sh.address zip",
+        "state": "customer 2 sh.address state",
+        "country": "HU"
+      }
+    },
+    {
+      "name": "Customer - 3",
+      "email": "customer3@test.com",
+      "description": "some description\n some other line",
+      "customer_category_id": 3,
+      "address": {
+        "name": "customer 3 address name",
+        "city": "customer 3 address city",
+        "street": "customer 3 address street",
+        "zipcode": "customer 3 address zip",
+        "state": "customer 3 address state",
+        "country": "HU"
+      },
+      "shipping_address": {
+        "name": "customer 3 sh.address name",
+        "city": "customer 3 sh.address city",
+        "street": "customer 3 sh.address street",
+        "zipcode": "customer 3 sh.address zip",
+        "state": "customer 3 sh.address state",
+        "country": "HU"
+      }
+    }        
+]

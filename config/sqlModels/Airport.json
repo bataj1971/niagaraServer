@@ -1,0 +1,26 @@
+{
+  "tablename": "airports",
+  "idfields": ["airport_number"],
+  "fields": {
+    "airport_number": {"len":20 ,"type":"string"} ,
+    "name": {"required": true },
+    "lng": { "type": "float", "required": true },
+    "lat": { "type": "float", "required": true },    
+    "location": { "required": true },    
+    "country_id": { "reference": "Country" },
+    "intl": { "type": "bool" },
+
+    "created_by": {
+      "type": "createdby"
+    },
+    "modified_by": {
+      "type": "modifiedby"
+    },
+    "created_at": {
+      "type": "createdat"
+    },
+    "modified_at": {
+      "type": "modifiedat"
+    }
+  }
+}
